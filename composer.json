@@ -1,0 +1,35 @@
+{
+    "name": "rithis/skeleton-bundle",
+    "description": "Скелет для быстрой разработки независимого бандла для Symfony2",
+    "type": "symfony-bundle",
+    "keywords": ["symfony2", "bundle", "skeleton"],
+    "homepage": "https://github.com/rithis/RithisSkeletonBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vyacheslav Slinko",
+            "email": "vyacheslav.slinko@rithis.com",
+            "role": "Founder"
+        }
+    ],
+    "support": {
+        "email": "support@rithis.com",
+        "issues": "https://github.com/rithis/RithisSkeletonBundle/issues",
+        "wiki": "https://github.com/rithis/RithisSkeletonBundle/wiki",
+        "source": "https://github.com/rithis/RithisSkeletonBundle"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/symfony": "2.1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "behat/symfony2-extension": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rithis\\SkeletonBundle": ""
+        }
+    },
+    "target-dir": "Rithis/SkeletonBundle"
+}
